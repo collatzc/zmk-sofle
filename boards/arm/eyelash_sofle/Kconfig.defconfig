@@ -6,7 +6,7 @@
 if BOARD_EYELASH_SOFLE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Sofle White"
+    default "Sofle Black Slim"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
