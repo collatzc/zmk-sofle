@@ -7,6 +7,8 @@ if BOARD_EYELASH_SOFLE_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Sofle BlackS"
+config BT_DEVICE_NAME
+    default "Sofle BlackS"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
