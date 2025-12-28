@@ -29,6 +29,13 @@
 &soft_off { hold-time-ms = <2000>; };
 
 / {
+    /* 新增/修改蓝牙标识配置 */
+    bt-identity {
+        compatible = "zmk,bt-identity";
+        /* 自定义蓝牙名称（替换为你想要的名称，建议短一些，避免截断） */
+        identity-name = "Sofle BlackS"; 
+    };
+
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
